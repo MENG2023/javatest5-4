@@ -1,0 +1,22 @@
+                                   异常
+在Java中,将程序执行过程中发生的不正常行为称为异常
+1.算数异常
+System.out.println(10/0);
+ 
+//执行结果
+Exception in thread "main" java.lang.ArithmeticException;/by zero
+2.空指针异常
+ int[] arr = null;
+System.out.println(arr.length);
+
+//执行结果
+Exception in thread"main"java.lang.Null.PointerException
+
+3.数组越界异常
+  int[] arr = {1.2.3};
+  System.out.println(arr[100]);
+
+//执行结果
+Exception in thread "main" java.lang.ArrayIndexOjutOfBoundsException:100
+
+从上述过程中可以看到,java中不同类型的异常,都有与其对应的类型来进行描述
